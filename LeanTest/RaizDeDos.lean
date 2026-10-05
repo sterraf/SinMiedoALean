@@ -4,7 +4,6 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Pedro Sánchez Terraf
 -/
 
--- import Mathlib.Data.Int.Basic
 import Mathlib.Tactic.Linarith
 import Mathlib.Data.Nat.Basic
 import Mathlib.Order.WellFounded
@@ -12,17 +11,25 @@ import Mathlib.Order.RelClasses
 import Mathlib.Algebra.Ring.Parity
 
 /-!
-# Trabajo básico con enteros y naturales
+# Trabajo básico con naturales
 
-Herramientas elementales para trabajar con `Int` y `Nat`: conversiones entre
-ambos, divisibilidad y aritmética básica.
+Hacemos algunas cuentas muy básicas. Probamos que raíz de 2 es (ir)racional (?).
+
+SIN usar IA pero usando GOFAI.
 -/
 
-example : 4^2 = 16 := by
-  exact Eq.symm (Nat.eq_of_beq_eq_true rfl)
+-- Tácticas: `exact?`, `rfl`
+example : 16 = 4^2 := by
+  exact?
 
-lemma sqrt_two_rational : ∃ m n, 2 * n ^ 2 = m ^ 2 := by tauto
+-- Tácticas: `sorry`, `tauto`, `existsi`
+lemma sqrt_two_rational : ∃ m n, 2 * n ^ 2 = m ^ 2 := sorry
 
+/-
+Buscando resultados con [LeanFinder](https://huggingface.co/spaces/delta-lab-ai/Lean-Finder)
+o con [LeanSearch](https://leansearch.net/)
+-/
+-- Dedicado a P. Groisman
 lemma sqrt_two_irrational : ¬∃ m n, 0 < n ∧ 2 * n ^ 2 = m ^ 2 := by
   -- fields de las classes para hacer andar esto.
   have wf_nat := instWellFoundedLTNat.wf
