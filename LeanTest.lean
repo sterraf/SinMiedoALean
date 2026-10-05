@@ -1,3 +1,3 @@
 import LeanTest.Basic
 import LeanTest.MiAlgebra
-import LeanTest.MiEnteros
+import LeanTest.RaizDeDos
