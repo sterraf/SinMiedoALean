@@ -36,6 +36,9 @@ una recepción con los brazos abiertos.
 - La discusión en la Sección 4 de [este paper](https://arxiv.org/abs/2404.11638)
   y una discusión muy a vuelo de pájaro de la formalización de los resultados en
   el Apéndice B.
+- [Web](https://leanprover-community.github.io/) de la matemática en Lean.
+- [Filminas](https://sanchezterraf.ar/home/slides/uma2026.pdf) de la charla en
+  UMA 2026 con varios links (y otras distintas [acá](https://sanchezterraf.ar/home/slides/slides.html)).
 
 ### Herramientas
 
@@ -45,7 +48,8 @@ De búsqueda usando lenguaje natural:
 - [Lean Finder](https://huggingface.co/spaces/delta-lab-ai/Lean-Finder).
 
 Búsqueda usando expresiones / tipado:
-- [Loogle](https://loogle.lean-lang.org/)
+
+- [Loogle](https://loogle.lean-lang.org/).
 
 ### Referencia
 
@@ -53,3 +57,22 @@ Búsqueda usando expresiones / tipado:
   tácticas](https://leanprover-community.github.io/mathlib4_docs/tactics.html)
   de Mathlib.
 - [Manual (TPIL)](https://lean-lang.org/theorem_proving_in_lean4/) más técnico de Lean.
+
+## Repositorios, registros
+
+- [Mathlib](https://github.com/leanprover-community/mathlib4#mathlib4).
+- [TauCeti](https://taucetiproject.github.io/TauCeti/), donde se pueden proponer
+  formalizaciones usando IA ([a diferencia de la
+  anterior](https://leanprover-community.github.io/contribute/index.html#use-of-ai)).
+- [Palomar](https://palomar-registry.org/about), donde se *registran*
+  contribuciones de (auto)formalización que cumplen un piso de interés de
+  investigación determinado por IA (¡iupi! hay [una
+  mía](https://palomar-registry.org/entry?id=PALOMAR-2026-09-17-000002&version=1)). 
+  
+  Para
+  [registrar](https://palomar-registry.org/how-to-submit) la suya propia,
+  recomiendo "Usar el template" dado por el [repositorio de
+  ejemplo](https://github.com/PalomarRegistry/PalomarTemplate), *clonarlo* en la
+  compu propia y pedirle a un
+  agente que ponga todo el material formalizado en esa copia tal como indica el [README](https://github.com/PalomarRegistry/PalomarTemplate/blob/main/README.md)
+  del ejemplo. 
