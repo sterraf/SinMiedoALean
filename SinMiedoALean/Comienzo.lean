@@ -1,7 +1,7 @@
 import Mathlib.Data.Nat.Basic
 import Mathlib.Tactic.Ring
 
-def sqr n := match n with
+def sqr : ℕ → ℕ
   | 0 => 0
   | n + 1 => sqr n + 2 * n + 1
 
@@ -29,7 +29,7 @@ example : sqr 0 = 0 := rfl
 
 example : sqr 1 = 1 := rfl
 
-example : sqr 2 = 4 := by exact Nat.four_eq_digitChar.mp rfl
+example : sqr 2 = 4 := rfl
 
 example : sqr 10 = 100 := rfl
 
@@ -42,3 +42,14 @@ example k : sqr k = k ^ 2 := by
     rw [pow_two] at *
     rw [hn] -- antes me puse a distribuir aquí...
     ring
+
+/-
+Claudio says:
+-/
+@[simp] theorem sqr_zero : sqr 0 = 0 := rfl
+@[simp] theorem sqr_add_one (n : ℕ) : sqr (n + 1) = sqr n + 2 * n + 1 := rfl
+
+theorem sqr_eq (n : ℕ) : sqr n = n ^ 2 := by
+  induction n with
+  | zero => simp
+  | succ n ih => rw [sqr_add_one, ih]; ring
