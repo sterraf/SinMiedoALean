@@ -11,7 +11,7 @@ import Mathlib.Tactic
 /-!
 # La irracionalidad de √2
 
-**Enunciado** (copiado de `LeanTest/RaizDeDos.lean`):
+**Enunciado** (copiado de `SinMiedoALean/RaizDeDos.lean`):
 
 `√2` es irracional, es decir, no existen naturales `m` y `n` con `n ≠ 0` tales que
 `m ^ 2 = 2 * n ^ 2`.

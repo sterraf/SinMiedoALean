@@ -1,7 +1,7 @@
-name = "lean-test"
+name = "sin-miedo-a-lean"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["LeanTest"]
+defaultTargets = ["SinMiedoALean"]
 
 [leanOptions]
 pp.unicode.fun = true # pretty-prints `fun a ↦ b`
@@ -15,4 +15,4 @@ scope = "leanprover-community"
 rev = "v4.34.0-rc2"
 
 [[lean_lib]]
-name = "LeanTest"
+name = "SinMiedoALean"

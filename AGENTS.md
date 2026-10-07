@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Lean 4 + Mathlib project (elan/lake). Single library `LeanTest`; entrypoint `LeanTest.lean` re-exports `LeanTest/Basic.lean`.
+Lean 4 + Mathlib project (elan/lake). Single library `SinMiedoALean`; entrypoint `SinMiedoALean.lean` re-exports `SinMiedoALean/Basic.lean`.
 
 ## Toolchain
 
@@ -10,8 +10,8 @@ Lean 4 + Mathlib project (elan/lake). Single library `LeanTest`; entrypoint `Lea
 ## Commands
 
 - First build / after dep change: `lake exe cache get` (downloads prebuilt Mathlib oleans; without it a full build takes very long), then `lake build`.
-- Normal check: `lake build` (builds `defaultTargets = ["LeanTest"]`).
-- Single file: `lake env lean LeanTest/Basic.lean` — use for fast iteration instead of full build.
+- Normal check: `lake build` (builds `defaultTargets = ["SinMiedoALean"]`).
+- Single file: `lake env lean SinMiedoALean/Basic.lean` — use for fast iteration instead of full build.
 - CI (`.github/workflows/lean_action_ci.yml`) just runs `leanprover/lean-action` build + docgen; reproduce locally with `lake build`.
 
 ## Conventions

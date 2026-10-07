@@ -1,4 +1,4 @@
-# lean-test
+# sin miedo a lean
 
 ## GitHub configuration
 
