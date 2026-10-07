@@ -7,8 +7,8 @@ en [YouTube](https://youtu.be/bYq0VLfmWlk?si=ALSVHEAMaIuiwuCV&t=5397)
 
 Tácticas: `exact?`, `rw?`
 
-- [en el curso](https://youtu.be/AME_NV5bUbo?si=MQAYDb-lBfQlLbj_&t=4624)
-- [rw](https://www.youtube.com/watch?v=-IOTWHPuIJc&t=3920s), hasta el minuto 1:55:30.
+- [tácticas en el curso](https://youtu.be/AME_NV5bUbo?si=MQAYDb-lBfQlLbj_&t=4624)
+- [variantes de `rw`](https://www.youtube.com/watch?v=-IOTWHPuIJc&t=3920s), hasta el minuto 1:55:30.
 --/
 example (x y : Nat) : (x + y) * (x + y) = x * x + y * x + x * y + y * y :=
   calc
@@ -76,3 +76,8 @@ example : ℚ := mkRat (-10) 1
 #eval (mkRat (-10) 4).den
 -- #eval .den (mkRat (-10) 4) -- Error!
 #eval Rat.den (mkRat (-10) 4)
+
+-- Coerciones
+#check (1 + 1)
+#check (1 + 1 : Int)
+#check (1 + 1 : Int) + 1
