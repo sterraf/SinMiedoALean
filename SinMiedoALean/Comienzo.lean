@@ -1,6 +1,16 @@
 import Mathlib.Data.Nat.Basic
 import Mathlib.Tactic.Ring
 
+def doble n := 2 * n
+/- El guión bajo como "hueco" me da una pista de qué tengo que poner -/
+-- def doble n := 2 * _
+/- Pero así no anda: -/
+-- def doble n := n * _
+
+#eval doble 5
+
+#eval doble (doble 4)
+
 def sqr : ℕ → ℕ
   | 0 => 0
   | n + 1 => sqr n + 2 * n + 1
