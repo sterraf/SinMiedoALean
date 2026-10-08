@@ -1,3 +1,4 @@
 import SinMiedoALean.Basic
 import SinMiedoALean.MiAlgebra
 import SinMiedoALean.RaizDeDos
+import SinMiedoALean.LimiteSuma
