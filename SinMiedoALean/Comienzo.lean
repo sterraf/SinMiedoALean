@@ -11,6 +11,8 @@ def doble n := 2 * n
 
 #eval doble (doble 4)
 
+#eval (4, 6).fst
+
 def sqr : ℕ → ℕ
   | 0 => 0
   | n + 1 => sqr n + 2 * n + 1
