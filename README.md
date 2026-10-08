@@ -12,6 +12,9 @@ playlist](https://www.youtube.com/playlist?list=PLPVBKRK1C5AE).
 Para poder tener una probadita de cómo es lo básico de Lean, pueden jugar al
 [Natural Number Game](https://adam.math.hhu.de/#/g/leanprover-community/NNG4)
 
+Parte de este repo fue modificado durante [esta
+sesión](https://opncd.ai/share/tfcTsybd) de OpenCode.
+
 ## Recursos
 
 ### Zulip
