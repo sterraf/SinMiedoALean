@@ -32,6 +32,9 @@ una recepción con los brazos abiertos.
 - [Mathematics in
   Lean](https://leanprover-community.github.io/mathematics_in_lean/), para
   introducirse en la formalización ordenada de matemática de todos los niveles.
+- [Comentario de Thomas
+  Hales](https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/)
+  sobre la *confianza* en las formalizaciones en Lean.
 - Curso de Formalización (Córdoba, 2022) en
   [video](https://www.youtube.com/playlist?list=PLq_CAAHNmn6MeGDMojdUHeTSpz9KQ5DxW). General,
   con varios videos dedicados a Lean, empezando desde el [video
