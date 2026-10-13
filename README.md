@@ -39,8 +39,11 @@ una recepción con los brazos abiertos.
   [video](https://www.youtube.com/playlist?list=PLq_CAAHNmn6MeGDMojdUHeTSpz9KQ5DxW). General,
   con varios videos dedicados a Lean, empezando desde el [video
   11](https://youtu.be/WPHaS0jRJ30?si=NBm6yErbPZx6PjIG) de dicha lista.
-- La discusión en la Sección 4 de [este paper](https://arxiv.org/abs/2404.11638)
-  y una discusión muy a vuelo de pájaro de la formalización de los resultados en
+- [Cortísimo tutorial con ejemplos
+  elementales](https://github.com/madvorak/read-lean#how-to-read-lean) de cómo
+  leer Lean.
+- La discusión general de asistententes de prueba en la Sección 4 de [este paper](https://arxiv.org/abs/2404.11638)
+  y una revisión muy a vuelo de pájaro de la formalización de los resultados en
   el Apéndice B.
 - [Web](https://leanprover-community.github.io/) de la matemática en Lean.
 - [Filminas](https://sanchezterraf.ar/home/slides/uma2026.pdf) de la charla en
